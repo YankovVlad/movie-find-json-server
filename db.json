@@ -1,79 +1,116 @@
 {
   "users": [
     {
-      "email": "aaa@mail.ru",
-      "password": "$2a$10$IXF6BvwOkTmJyZztx1qB4O0LmlziRv4.rh42Vve9lqe691599QhLS",
-      "nickname": "Vladik",
-      "id": 1
+      "email": "vladankov@gmail.com",
+      "password": "$2a$10$t6FcUlTuwZA3YmEakcJCTeZXH5ZDltOHjSp2y/NP2/6nsNyTRskdu",
+      "firstName": "Vladislav",
+      "lastName": "Yankov",
+      "age": "24",
+      "avatar": "",
+      "id": 3,
+      "favoriteGenres": "Actions"
     },
     {
-      "email": "test@test.ru",
-      "password": "$2a$10$Jmj2TV/M.uin/q0QgAvUIOiMOiX2wo.QuOMUwclAI0PLsa7XBRtDi",
-      "nickname": "Vladik",
-      "firstName": "Unknown",
-      "lastName": "Unknown",
+      "email": "ivan@mail.ru",
+      "password": "$2a$10$tCvPvI93gWsnkLTmZZ49xu3F5iRin8AA8Fy0iW1UfwUou7qFhYFly",
+      "firstName": "Ivan",
+      "lastName": "Ivanov",
       "age": "Unknown",
       "avatar": "",
-      "watchedMovies": [],
-      "wantsToSee": [],
-      "reviews": [],
-      "id": 2
+      "id": 4
+    },
+    {
+      "email": "kark99@gmail.com",
+      "password": "$2a$10$R/L.IJgDS/pLEaVcqfEGuuGUpfuDasbrXw9nBC2m6/8sVd7gw5fAK",
+      "firstName": "Tony",
+      "lastName": "Kark",
+      "age": "Unknown",
+      "avatar": "",
+      "id": 5
+    },
+    {
+      "email": "petruha@mail.ru",
+      "password": "$2a$10$W42UVMUDjlRo3dZKSOa2KOv7k2yqVJ9JorNVc4tnU/F9htFlNEwni",
+      "firstName": "Petr",
+      "lastName": "Petrov",
+      "age": "13",
+      "avatar": "",
+      "id": 6,
+      "favoriteGenres": "Comedy, fantasy, detective"
     }
   ],
   "reviews": [
     {
       "imdbId": "tt1838556",
-      "text": "Nice movie!",
-      "author": 2,
+      "text": "ooooohhh, its gooooood",
+      "date": "September 27, 2021 8:22 PM",
+      "author": {
+        "firstName": "Petr",
+        "lastName": "Petrov",
+        "id": 6
+      },
+      "movieName": "Honest Thief",
       "id": 1
     },
     {
-      "imdbId": "tt7126948",
-      "text": "Nice movie!",
-      "author": 2,
+      "imdbId": "tt12745164",
+      "text": "dogs is very sweety))))))))))",
+      "date": "September 27, 2021 8:24 PM",
+      "author": {
+        "firstName": "Petr",
+        "lastName": "Petrov",
+        "id": 6
+      },
+      "movieName": "Cats & Dogs 3: Paws Unite",
       "id": 2
     },
     {
-      "imdbId": "tt7126948",
-      "text": "Go to watch!",
-      "author": 2,
+      "imdbId": "tt8134980",
+      "text": "а прикиньте, если это по-настоящему произойдет :D",
+      "date": "September 27, 2021 8:26 PM",
+      "author": {
+        "firstName": "Petr",
+        "lastName": "Petrov",
+        "id": 6
+      },
+      "movieName": "Battlefield 2025",
       "id": 3
     },
     {
-      "imdbId": "tt7126948",
-      "text": "Norm",
-      "author": 2,
+      "imdbId": "tt13061790",
+      "text": "Это мой любимый мультик про принцесс. и ничего страшного, что я мальчик и что мне 13) мальчики тоже хотят быть в сказке))))))",
+      "date": "September 27, 2021 8:29 PM",
+      "author": {
+        "firstName": "Petr",
+        "lastName": "Petrov",
+        "id": 6
+      },
+      "movieName": "Once Upon a Snowman",
       "id": 4
     },
     {
-      "imdbId": "tt7126948",
-      "text": "Nice!",
-      "author": 2,
+      "imdbId": "tt13143964",
+      "text": "HAHAHAHAHAHA LOOOOL KEK",
+      "date": "September 27, 2021 8:33 PM",
+      "author": {
+        "firstName": "Petr",
+        "lastName": "Petrov",
+        "id": 6
+      },
+      "movieName": "Borat Subsequent Moviefilm: Delivery of Prodigious Bribe to American Regime for Make Benefit Once Glorious Nation of Kazakhstan",
       "id": 5
     },
     {
-      "imdbId": "tt7126948",
-      "text": "Bad",
-      "author": 2,
+      "imdbId": "tt10701458",
+      "text": "на обложке тетя похожа на мою тещу ААХАХХАХААХАХАХАХ шутка",
+      "date": "September 27, 2021 8:35 PM",
+      "author": {
+        "firstName": "Petr",
+        "lastName": "Petrov",
+        "id": 6
+      },
+      "movieName": "Castle Freak",
       "id": 6
-    },
-    {
-      "imdbId": "tt7126948",
-      "text": "Perfect",
-      "author": 2,
-      "id": 7
-    },
-    {
-      "imdbId": "tt7126948",
-      "text": "hi",
-      "author": 2,
-      "id": 8
-    },
-    {
-      "imdbId": "tt7126948",
-      "text": "GG",
-      "author": 2,
-      "id": 9
     }
   ],
   "movies": [
@@ -321,14 +358,6 @@
       "year": "2020",
       "imdb_id": "tt10701458",
       "poster": "https://m.media-amazon.com/images/M/MV5BYTZmZjA3YzUtNDc1Ny00ZWU2LThmZTktZmMwNjM1ZWNjNmMyXkEyXkFqcGdeQXVyODY5NzkyMjA@._V1_SX300.jpg"
-    },
-    {
-      "title": "100% Wolf",
-      "genre": "Animation, Adventure, Comedy",
-      "country": "Australia, Belgium",
-      "year": "2020",
-      "imdb_id": "tt8774798",
-      "poster": "https://m.media-amazon.com/images/M/MV5BYmRiYTM3ZGMtNzA1Yy00OWQ1LWE2ZGEtZTRiYzYyZDZjYWYwXkEyXkFqcGdeQXVyMjMwODE4ODI@._V1_SX300.jpg"
     },
     {
       "title": "Birds of Prey (and the Fantabulous Emancipation of One Harley Quinn)",
